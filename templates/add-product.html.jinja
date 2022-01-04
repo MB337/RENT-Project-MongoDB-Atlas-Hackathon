@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <title>RENT! | Add Product</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src= "{{ url_for('static', filename='scripts/AddProducts.js') }}"></script>
+    <link rel="shortcut icon" href="static/img/favicon.ico">
+</head>
+<script>
+    $(function(){
+        $(".category li a").click(function(){
+          $(".category-button:first-child").text($(this).text());
+           $(".category-button:first-child").val($(this).text());
+        });
+    });
+</script>
+<body>
+    <section>
+        <div class="container border my-5 py-5">
+            <div class="row">
+                <p class="text-center fs-1">Add Product Field</p>
+                <div class="dropdown my-3">
+                    <button class="btn dropdown-toggle category-button" type="button" id="category" data-bs-toggle="dropdown" aria-expanded="false" style="border: solid #ced4da 1px;">
+                      Select product category
+                    </button>
+                    <ul class="dropdown-menu category" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Household Appliance</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Drones</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Electric Scooters</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Smartphones/Tablets/PCs</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </div>
+                <div class="input-group my-3">
+                    <input type="text" class="form-control" id="prodName" placeholder="Product Name" aria-label="Product Name">
+                </div>
+                <div class="input-group my-3">
+                    <input type="text" class="form-control" id="desc" placeholder="Product Description" aria-label="Product Description">
+                </div>
+                <div class="input-group my-3">
+                    <input type="text" onkeypress='validate(event)' class="form-control" id="price" placeholder="Product Rent Price ($/day)" aria-label="Product Rent Price ($/day)">
+                </div>
+                <div class="input-group my-3">
+                    <input type="text" class="form-control" id="img-url" placeholder="Image url" aria-label="Image url">
+                </div>
+                <div class="row my-3">
+                    <label class="col-md-4 text-center">
+                        <span class="fancy-font">Is it in Homepage?</span> 
+                        <input type="checkbox" id="isHomepage">
+                    </label>
+
+                    <label class="col-md-4 text-center">
+                        <span class="fancy-font">Is it in Homepage Carousel?</span> 
+                        <input type="checkbox" id="isHomepageCarousel">
+                    </label>
+
+                    <label class="col-md-4 text-center">
+                        <span class="fancy-font">Is it in Category Carousel?</span> 
+                        <input type="checkbox" id="isCategoryCarousel">
+                    </label>
+                </div>
+                <div class="row justify-content-center pt-5">
+                    <button id="submit" type="button" class="btn btn-success text-center" style="max-width: 20%;">Submit</button>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>

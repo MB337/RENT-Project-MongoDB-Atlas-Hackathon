@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.cover{
+    background-size: cover;
+    background-position: center;
+}
+.row{
+    padding: 0 !important;
+    --bs-gutter-x: 0 !important;
+}
+.card-img-top{
+    height: 220px;
+}
+.w-35{
+    width: 35% !important;
+}
+.cover-car{
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    height: 600px;
+    border-radius: 20px;
+}
+.custom-car{
+    border-radius: 200px;
+}
+.fancy-font{
+    font-family: 'Roboto Slab', serif;
+}

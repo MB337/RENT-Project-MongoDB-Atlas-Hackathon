@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+
+  frontend:
+    build:
+      context: ./
+    command: gunicorn --log-level=debug -w 2 -b 0.0.0.0:5000 app:app --reload
+    env_file:
+      - .env
+    image: mongodb-hackathon
+    ports:
+      - 5000:5000
+    restart: always
+    volumes:
+      - ./:/var/www
+
+networks:
+  default:
+    name: mongodb-hackathon
