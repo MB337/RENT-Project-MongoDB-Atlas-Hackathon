@@ -33,4 +33,4 @@ Those are MongoDB services and modules or tool that I used:
 This project is "E-Commerce Creation" category.
 
 # More
-Thank you for your attention, if you have any suggestions write me <a href="mailto:mbmatteobianchi@gmail.com">mbmatteobianchi@gmail.com</a>
+Thanks for your attention, if you have any suggestions write me at <a href="mailto:mbmatteobianchi@gmail.com">mbmatteobianchi@gmail.com</a>
