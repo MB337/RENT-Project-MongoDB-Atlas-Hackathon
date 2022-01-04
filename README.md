@@ -3,15 +3,22 @@ The RENT project is an e-commerce where the user can rent products, previously u
 
 # Installation
 1) You need to clone this repository on your machine:<br/>
-      ```bash
+      ```
       git clone git@github.com:MB337/RENT-Project-MongoDB-Atlas-Hackathon.git
       ```
 2) Add .env file to your project and set it like this:<br/> 
-      ```bash
+      ```
       COMPOSE_PROJECT_NAME=mongodb-hackathon
       MONGODB_URI=<YOUR-MONGODB-PROJECT-URI>
       ```
-3) If you have Docker:
+3) Your MongoDB Database should look like this:
+      ```
+      |ecommerce
+      ---products
+      ---stats
+      ---report
+      ```
+4) If you have Docker:
       ```
       docker-compose up
       ```
