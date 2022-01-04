@@ -95,7 +95,7 @@ def cart():
             cursor = prod_collection 
             for item in session['cart']:
                 for props in cursor.find({"_id":ObjectId(str(item))}):
-                    sum_of_prices += props['price']
+                    sum_of_prices += float(props['price'])
                     product_map = {
                         "id":item,
                         "category":props['category'],
