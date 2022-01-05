@@ -30,11 +30,12 @@ The RENT project is an e-commerce where the user can rent products, previously u
 
 # Tools/Modules
 Those are MongoDB services and modules or tool that I used:
-- <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask:</a> micro web framework written in Python.
-- <a href="https://docs.atlas.mongodb.com/atlas-search/">Atlas Search:</a> Atlas Search provides options for several kinds of text analyzers, score-based results ranking, and a rich query language.
-- <a href="https://pymongo.readthedocs.io/en/stable/">Pymongo:</a> Python distribution containing tools for working with MongoDB.
-- <a href="https://www.chartjs.org/">Chart.js:</a> an open source JavaScript library for creating interactive and animated charts on web pages.
-- <a href="https://axios-http.com/docs/intro">Axios:</a> Axios is a promise-based HTTP Client for node.js and the browser.
+- <a target="_blank" href="https://flask.palletsprojects.com/en/2.0.x/">Flask:</a> micro web framework written in Python.
+- <a target="_blank" href="https://docs.atlas.mongodb.com/atlas-search/">Atlas Search:</a> Atlas Search provides options for several kinds of text analyzers, score-based results ranking, and a rich query language.
+- <a target="_blank" href="https://pymongo.readthedocs.io/en/stable/">Pymongo:</a> Python distribution containing tools for working with MongoDB.
+- <a target="_blank" href="https://www.chartjs.org/">Chart.js:</a> an open source JavaScript library for creating interactive and animated charts on web pages.
+- <a target="_blank" href="https://axios-http.com/docs/intro">Axios:</a> Axios is a promise-based HTTP Client for node.js and the browser.
+- <a target="_blank" href="https://getbootstrap.com/">Bootstrap 5:</a> Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
 
 # Category
 This project is "E-Commerce Creation" category.
