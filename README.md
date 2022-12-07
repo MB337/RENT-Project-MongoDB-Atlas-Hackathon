@@ -38,7 +38,7 @@ Those are MongoDB services and modules or tool that I used:
 - <a target="_blank" href="https://getbootstrap.com/">Bootstrap 5:</a> Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
 
 # Category
-This project is "E-Commerce Creation" category.
+This project is "Search No More" category.
 
 # Preview
 <img src="https://i.imgur.com/tJEBJZb.png"/>
