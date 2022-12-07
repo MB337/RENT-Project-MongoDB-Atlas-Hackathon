@@ -46,5 +46,3 @@ This project is "E-Commerce Creation" category.
 # More
 Thanks for your attention, if you have any suggestions write me at <a href="mailto:mbmatteobianchi@gmail.com">mbmatteobianchi@gmail.com</a>
 
-# Atlashackathon Runner Up project
-https://dev.to/devteam/congrats-to-the-mongodb-atlas-hackathon-winners-4cc0
